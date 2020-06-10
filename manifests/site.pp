@@ -13,6 +13,6 @@ node /^db/ {
   include role::db_server
 }
 
-node 'jira.dev' {
+node 'jira.dev.vm' {
   include role::jira_dev
 }
