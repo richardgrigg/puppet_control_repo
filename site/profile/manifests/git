@@ -1,5 +1,12 @@
 class profile::git {
 
+  include git
+  git::config { 'user.name':
+    value => 'richard.grigg',
+  }
 
+  git::config { 'user.email':
+    value => 'richardgrigg@gmail.com',
+  }
 
 }
